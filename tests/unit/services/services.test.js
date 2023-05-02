@@ -1,9 +1,9 @@
 const chai = require('chai');
 const sinon = require('sinon');
 const sinonChai = require('sinon-chai');
-const productsService = require('../../../src/services/productServcies');
+const productsService = require('../../../src/services/productService');
 const connection = require('../../../src/models/connection');
-const products = require('../models/moks/model.mock');
+const products = require('../models/moks/models.moks');
 
 describe('Testando func de service', function () {
   afterEach(() => {
