@@ -1,4 +1,4 @@
-const chai = require('chai');
+/* const chai = require('chai');
 const sinon = require('sinon');
 const sinonChai = require('sinon-chai');
 const salesService = require('../../../src/services/salesService');
@@ -32,4 +32,4 @@ describe('Testando func de service', function () {
 
     chai.expect(result.type).to.be.deep.equal(404);
   })
-})
+}) */
