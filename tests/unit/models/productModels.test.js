@@ -3,7 +3,7 @@ const sinonChai = require('sinon-chai');
 const chai = require('chai');
 const productModel = require('../../../src/models/productModel');
 const connection = require('../../../src/models/connection');
-const products = require('../models/moks/models.moks')
+const products = require('./moks/models.moks')
 
 
 const { expect } = chai;
